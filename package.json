@@ -1,19 +1,21 @@
 {
-  "name": "musicbot",
+  "name": "discord-music-bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "The perfect music bot for your Discord server! 🤘",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "repository": "https://github.com/Androz2091/discord-music-bot",
+  "author": "Androz2091 <androz2091@gmail.com>",
+  "license": "MIT",
   "dependencies": {
+    "@discord-player/downloader": "^3.0.1",
+    "@discord-player/extractor": "^3.0.2",
     "@discordjs/opus": "^0.6.0",
-    "discord.js": "^12.5.3",
-    "ffmpeg": "0.0.4",
-    "ffmpeg-static": "^4.4.0",
-    "fluent-ffmpeg": "^2.1.2",
-    "ytdl-core": "^4.9.1"
+    "discord-player": "^5.1.0",
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0",
+    "slash-create": "^4.0.1"
+  },
+  "devDependencies": {
+    "mdtable": "^0.3.1"
   }
 }
